@@ -1,5 +1,4 @@
 const base_url = 'https://api.apilayer.com/fixer';
-const api_key = 'wjkYpWHO5PomooWzNiVmCg5dCCeXXxJg';
 convert.onclick = () => {
     fetch(`${base_url}/convert?from=${from.value.trim()}&to=${to.value.trim()}&amount=${sum.value.trim()}`, {
         headers: {
